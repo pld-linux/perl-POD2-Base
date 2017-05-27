@@ -9,7 +9,7 @@ Summary:	Base module for translations of Perl documentation
 Summary(pl.UTF-8):	Bazowy moduł do tłumaczeń dokumentacji Perla
 Name:		perl-POD2-Base
 Version:	0.044_1
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -67,6 +67,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes
+%dir %{perl_vendorlib}/POD2
 %{perl_vendorlib}/POD2/Base.pm
 %{_mandir}/man3/POD2::Base.3pm*
 %lang(pt) %{_mandir}/pt/man3/POD2::Base.3pm*
