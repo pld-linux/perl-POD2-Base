@@ -13,7 +13,7 @@ Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-authors/id/F/FE/FERREIRA/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/POD2/FERREIRA/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	8dd5125ba5026427cafdddaa7f5946a9
 URL:		http://search.cpan.org/dist/POD2-Base/
 BuildRequires:	perl-devel >= 1:5.8.0
