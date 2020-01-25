@@ -4,7 +4,6 @@
 #
 %define		pdir	POD2
 %define		pnam	Base
-%include	/usr/lib/rpm/macros.perl
 Summary:	Base module for translations of Perl documentation
 Summary(pl.UTF-8):	Bazowy moduł do tłumaczeń dokumentacji Perla
 Name:		perl-POD2-Base
